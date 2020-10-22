@@ -3,155 +3,91 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 24,
+      "count": 45,
       "max": [
-        0.011699999682605267,
-        1.6064300537109375,
-        1
+        1,
+        0.94436401128768921,
+        0.078779198229312897
       ],
       "min": [
-        -0.011699999682605267,
-        -1.6064300537109375,
-        -1
+        -1,
+        -0.94436401128768921,
+        -0.078779198229312897
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 288,
+      "byteOffset": 540,
       "componentType": 5126,
-      "count": 24,
+      "count": 45,
       "max": [
         1,
-        1,
+        0.21793413162231445,
         1
       ],
       "min": [
         -1,
-        -1,
-        -1
+        -0.86542588472366333,
+        -0.99996364116668701
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 24,
+      "count": 45,
       "max": [
-        1,
-        1,
-        0,
+        0.86542588472366333,
+        0.99999332427978516,
+        0.21793411672115326,
         1
       ],
       "min": [
-        0,
+        -0.86542594432830811,
         -1,
-        0,
-        -1
+        -0.99742317199707031,
+        1
       ],
       "type": "VEC4"
     },
     {
-      "bufferView": 1,
+      "bufferView": 2,
+      "byteOffset": 1080,
       "componentType": 5126,
-      "count": 24,
+      "count": 45,
       "max": [
-        0.83135002851486206,
-        0.99896997213363647
+        1,
+        1,
+        1
       ],
       "min": [
-        0.0014400000218302011,
-        0.00042999998549930751
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 45,
+      "max": [
+        0.973114013671875,
+        0.86227500438690186
+      ],
+      "min": [
+        0.019073300063610077,
+        0.13799299299716949
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 36,
+      "count": 69,
       "max": [
-        23
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 576,
-      "componentType": 5126,
-      "count": 28,
-      "max": [
-        0.004999999888241291,
-        1.5992000102996826,
-        0.004980000201612711
-      ],
-      "min": [
-        -0.014299999922513962,
-        -1.5992000102996826,
-        -0.99501997232437134
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 912,
-      "componentType": 5126,
-      "count": 28,
-      "max": [
-        1,
-        0.5301329493522644,
-        1
-      ],
-      "min": [
-        -1,
-        -1,
-        -0.84791463613510132
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 384,
-      "componentType": 5126,
-      "count": 28,
-      "max": [
-        1,
-        0.00012207166582811624,
-        1,
-        1
-      ],
-      "min": [
-        -1,
-        -0.00012207166582811624,
-        0,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 192,
-      "componentType": 5126,
-      "count": 28,
-      "max": [
-        0.96811002492904663,
-        0.28400999307632446
-      ],
-      "min": [
-        0.70613998174667358,
-        0.022040000185370445
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 144,
-      "componentType": 5125,
-      "count": 42,
-      "max": [
-        27
+        44
       ],
       "min": [
         0
@@ -161,42 +97,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "Arcadiax (https://sketchfab.com/arcadiax)",
+      "author": "Multipainkiller Studio (https://sketchfab.com/Multipainkiller_Studio)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/a3b88a6137864cafbf97423a30cb341c",
-      "title": "Letter"
+      "source": "https://sketchfab.com/models/73faa986225f4241809b922f92a48884",
+      "title": "Envelope"
     },
-    "generator": "Sketchfab-3.35.5",
+    "generator": "Sketchfab-3.19.4",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 312,
+      "byteLength": 276,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 416,
-      "byteOffset": 312,
+      "byteLength": 360,
+      "byteOffset": 276,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1248,
-      "byteOffset": 728,
+      "byteLength": 1620,
+      "byteOffset": 636,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 832,
-      "byteOffset": 1976,
+      "byteLength": 720,
+      "byteOffset": 2256,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -204,30 +140,35 @@
   ],
   "buffers": [
     {
-      "byteLength": 2808,
+      "byteLength": 2976,
       "uri": "scene.bin"
     }
   ],
-  "extensionsUsed": [
-    "KHR_materials_unlit"
-  ],
   "images": [
     {
-      "uri": "textures/Letter_baseColor.png"
+      "uri": "textures/M_Paper_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/M_Paper_normal.jpeg"
+    },
+    {
+      "uri": "textures/M_Paper_baseColor.jpeg"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ],
-      "extensions": {
-        "KHR_materials_unlit": {}
+      "name": "M_Paper",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
       },
-      "name": "Letter",
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1,
+        "texCoord": 0
+      },
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -236,42 +177,31 @@
           1
         ],
         "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
           "index": 0,
           "texCoord": 0
         },
-        "metallicFactor": 0,
         "roughnessFactor": 1
       }
     }
   ],
   "meshes": [
     {
-      "name": "Cube_0",
+      "name": "defaultMaterial",
       "primitives": [
         {
           "attributes": {
+            "COLOR_0": 3,
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 4
           },
-          "indices": 4,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "Plane_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
-          },
-          "indices": 9,
+          "indices": 5,
           "material": 0,
           "mode": 4
         }
@@ -299,48 +229,37 @@
     },
     {
       "children": [
-        3,
-        5
+        3
       ],
-      "name": "Root"
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -4.3711390063094768e-08,
+        0.999999999999999,
+        0,
+        0,
+        -0.999999999999999,
+        -4.3711390063094768e-08,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Collada visual scene group"
     },
     {
       "children": [
         4
       ],
-      "name": "Cube"
+      "name": "SM_Envelope"
     },
     {
       "mesh": 0,
-      "name": "Cube_0"
-    },
-    {
-      "children": [
-        6
-      ],
-      "matrix": [
-        -0.99553999999999998,
-        0,
-        -0.094390000000000029,
-        0,
-        -0,
-        -1,
-        -0,
-        0,
-        -0.094390000000000029,
-        -0,
-        0.99553999999999998,
-        0,
-        -0.0011900000000000003,
-        0,
-        0.99217,
-        1
-      ],
-      "name": "Plane"
-    },
-    {
-      "mesh": 1,
-      "name": "Plane_0"
+      "name": "defaultMaterial"
     }
   ],
   "samplers": [
@@ -364,6 +283,14 @@
     {
       "sampler": 0,
       "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
     }
   ]
 }
