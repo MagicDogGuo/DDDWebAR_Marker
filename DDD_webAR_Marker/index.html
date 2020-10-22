@@ -3,28 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>DDD_AR</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
     <!-- import events.js script -->
     <!--script src="https://rawgit.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-click-events/events.js"></script-->
     <script type="text/javascript">
     AFRAME.registerComponent('markerhandler', {
 
-    init: function() {
-        const animatedMarker = document.querySelector("#animated-marker");
-        const aEntity = document.querySelector("#animated-model");
+      init: function() {
+          const animatedMarker = document.querySelector("#animated-marker");
+          const aEntity = document.querySelector("#animated-model");
 
-        // every click, we make our model grow in size :)
-        animatedMarker.addEventListener('click', function(ev, target){
-            const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
-            if (aEntity && intersectedElement === aEntity) {
-                const scale = aEntity.getAttribute('scale');
-                Object.keys(scale).forEach((key) => scale[key] = scale[key] + 0.3);
-                aEntity.setAttribute('scale', scale);
-                window.location.href = 'http://www.google.com';
-            }
-        });
-    }});
+          // every click, we make our model grow in size :)
+          animatedMarker.addEventListener('touchend', function(ev, target){
+              const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
+              if (aEntity && intersectedElement === aEntity) {
+                  const scale = aEntity.getAttribute('scale');
+                  Object.keys(scale).forEach((key) => scale[key] = scale[key] + 0.3);
+                  aEntity.setAttribute('scale', scale);
+                  window.location.href = 'http://www.google.com';
+              }
+          });
+          // every click, we make our model grow in size :)
+          animatedMarker.addEventListener('click', function(ev, target){
+              const intersectedElement = ev && ev.detail && ev.detail.intersectedEl;
+              if (aEntity && intersectedElement === aEntity) {
+                  const scale = aEntity.getAttribute('scale');
+                  Object.keys(scale).forEach((key) => scale[key] = scale[key] + 0.3);
+                  aEntity.setAttribute('scale', scale);
+              }
+          });
+
+      }});
     </script>
 
   </head>
